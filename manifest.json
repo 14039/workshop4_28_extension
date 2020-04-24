@@ -1,11 +1,18 @@
 {
     "manifest_version": 2,
     "name": "Custom Google Homepage",
-    "description": "This extension shows a Google Image search result for the current page",
+    "description": "This extension showsdoes dtuff",
     "version": "1.0",
+    "content_scripts": [
+        {
+        "matches": ["https://www.google.com/*"],
+        "css": ["main.css"]
+        }
+        ],
     "page_action": {
     "default_icon": "dog.jpg",
     "default_popup": "popup.html",
     "default_title": "My custom google page!"
     }
    }
+
