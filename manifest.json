@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Custom Google Homepage",
-    "description": "This extension does stuff",
+    "description": "This extension does shows a picture upon navigation to Google",
     "version": "1.0",
     "content_scripts": [
         {
@@ -9,10 +9,10 @@
         "css": ["main.css"]
         }
         ],
-    "page_action": {
-    "default_icon": "dog.jpg",
+    "browser_action": {
+    "default_title": "My personalized google page!",
     "default_popup": "popup.html",
-    "default_title": "My custom google page!"
+    "default_icon": "dog.jpg"
     }
    }
 
